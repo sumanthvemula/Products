@@ -1,0 +1,19 @@
+.loadingSpinner {
+  background: none repeat scroll 0 0 #e9ecef;
+  position: fixed;
+  display: block;
+  opacity: 0.5;
+  z-index: 999999;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  .spinner-alignment {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    z-index: 1000001;
+  }
+}
+
+
